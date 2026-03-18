@@ -25,6 +25,7 @@ const TESTNETS = [
   { name: 'Fluent Testnet', chainId: 20994, rpc: 'https://rpc.testnet.fluent.xyz/', explorer: 'https://testnet.fluentscan.xyz/', token: 'ETH' },
   { name: 'Robinhood Chain', chainId: 46630, rpc: 'https://rpc.testnet.chain.robinhood.com', explorer: 'https://explorer.testnet.chain.robinhood.com', token: 'ETH' },
   { name: 'Lens Sepolia', chainId: 37111, rpc: 'https://rpc.testnet.lens.dev', explorer: 'https://block-explorer.testnet.lens.dev', token: 'GRASS' },
+  { name: 'Tempo Testnet', chainId: 42431, rpc: 'https://rpc.moderato.tempo.xyz', explorer: 'https://explore.tempo.xyz', token: 'USD' },
 ];
 
 const MAINNETS = [
