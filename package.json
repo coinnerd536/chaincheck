@@ -1,0 +1,20 @@
+{
+  "name": "chaincheck",
+  "version": "1.0.0",
+  "description": "Fast multi-chain RPC health checker & wallet portfolio viewer. Zero dependencies.",
+  "main": "index.js",
+  "bin": {
+    "chaincheck": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js && node index.js 0x410a41682158DF340AF54cB3F706D144ee3a7CA8"
+  },
+  "keywords": ["ethereum", "rpc", "health-check", "testnet", "multi-chain", "wallet", "cli"],
+  "author": "coinnerd536",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coinnerd536/chaincheck.git"
+  }
+}
