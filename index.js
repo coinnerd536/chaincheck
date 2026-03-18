@@ -23,6 +23,8 @@ const TESTNETS = [
   { name: 'MegaETH Testnet', chainId: 6343, rpc: 'https://carrot.megaeth.com/rpc', explorer: 'https://megaeth-testnet-v2.blockscout.com', token: 'ETH' },
   { name: 'Berachain Bepolia', chainId: 80069, rpc: 'https://bepolia.rpc.berachain.com', explorer: 'https://bepolia.beratrail.io', token: 'BERA' },
   { name: 'Fluent Testnet', chainId: 20994, rpc: 'https://rpc.testnet.fluent.xyz/', explorer: 'https://testnet.fluentscan.xyz/', token: 'ETH' },
+  { name: 'Robinhood Chain', chainId: 46630, rpc: 'https://rpc.testnet.chain.robinhood.com', explorer: 'https://explorer.testnet.chain.robinhood.com', token: 'ETH' },
+  { name: 'Lens Sepolia', chainId: 37111, rpc: 'https://rpc.testnet.lens.dev', explorer: 'https://block-explorer.testnet.lens.dev', token: 'GRASS' },
 ];
 
 const MAINNETS = [
