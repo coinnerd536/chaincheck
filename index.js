@@ -26,6 +26,9 @@ const TESTNETS = [
   { name: 'Robinhood Chain', chainId: 46630, rpc: 'https://rpc.testnet.chain.robinhood.com', explorer: 'https://explorer.testnet.chain.robinhood.com', token: 'ETH' },
   { name: 'Lens Sepolia', chainId: 37111, rpc: 'https://rpc.testnet.lens.dev', explorer: 'https://block-explorer.testnet.lens.dev', token: 'GRASS' },
   { name: 'Tempo Testnet', chainId: 42431, rpc: 'https://rpc.moderato.tempo.xyz', explorer: 'https://explore.tempo.xyz', token: 'USD' },
+  { name: 'Unichain Sepolia', chainId: 1301, rpc: 'https://sepolia.unichain.org', explorer: 'https://sepolia.uniscan.xyz', token: 'ETH' },
+  { name: 'Soneium Minato', chainId: 1946, rpc: 'https://rpc.minato.soneium.org', explorer: 'https://soneium-minato.blockscout.com', token: 'ETH' },
+  { name: 'Ink Sepolia', chainId: 763373, rpc: 'https://rpc-gel-sepolia.inkonchain.com', explorer: 'https://explorer-sepolia.inkonchain.com', token: 'ETH' },
 ];
 
 const MAINNETS = [
